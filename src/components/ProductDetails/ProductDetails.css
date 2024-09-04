@@ -6,11 +6,11 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-@media screen  and (max-width:600px){
+@media screen  and (max-width:500px){
     .product-details-container{
     flex-direction:column;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
 }
 .product-image{
