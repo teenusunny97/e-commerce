@@ -9,10 +9,10 @@ function RoutesLayout() {
    
     return (
    <>
-   <Router>
+   <Router basename={process.env.PUBLIC_URL}>
     <Header/>
     <Routes>
-          <Route path="/e-commerce/" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/logout" element={<Logout/>}/>
           <Route path="/product/:id" element={<ProductDetails/>}/>
     </Routes>
