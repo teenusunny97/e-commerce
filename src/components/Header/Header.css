@@ -1,0 +1,24 @@
+.header{
+    background-color: #1e1e22;
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    top:0;
+    position:fixed;
+    width:100%;
+    z-index: 99;
+}
+.header h1{
+    color: #fff;
+}
+.logout-button{
+    background-color:#f98619;
+    border:none;
+    color: #fff;
+    padding:10px 20px;
+    cursor: pointer;
+    margin-right: 35px;
+}
+.header a{
+    text-decoration: none;
+}
