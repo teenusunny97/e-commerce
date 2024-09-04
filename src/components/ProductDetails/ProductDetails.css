@@ -9,8 +9,8 @@
 @media screen  and (max-width:600px){
     .product-details-container{
     flex-direction:column;
-    margin-top: 10rem;
-    margin-bottom: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     }
 }
 .product-image{
