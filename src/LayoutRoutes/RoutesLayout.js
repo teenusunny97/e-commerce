@@ -12,7 +12,7 @@ function RoutesLayout() {
    <Router>
     <Header/>
     <Routes>
-          <Route path="https://teenusunny97.github.io/e-commerce/" element={<Home/>}/>
+          <Route path="/e-commerce/" element={<Home/>}/>
           <Route path="/logout" element={<Logout/>}/>
           <Route path="/product/:id" element={<ProductDetails/>}/>
     </Routes>
