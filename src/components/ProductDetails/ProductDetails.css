@@ -3,8 +3,10 @@
     justify-content: center;
     align-items: center;
    margin-top:10rem;
+   max-width: 100%;
+   overflow-x: hidden;
 }
-@media screen  and (max-width:500px){
+@media screen  and (max-width:580px){
     .product-details-container{
     flex-direction:column;
    
@@ -13,11 +15,20 @@
         padding: 3rem 3rem 5rem 3rem;
     }
 }
+@media screen  and (max-width:320px){
+    .product-details-container,.go-back-button,.buy-now-button{
+        font-size:12px!important;
+    }
+    .product-title{
+        font-size:18px;
+    }
+
+}
 .product-image{
     height: 280px;
     width: 280px;
     object-fit: contain;
-    /* margin-right: 20px; */
+    margin-right: 20px;
 }
 .product-info{
     flex:1;
